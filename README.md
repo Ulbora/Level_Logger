@@ -14,6 +14,11 @@ Error logging is alwas on and cannot be turned off.
 	i, e := strconv.Atoi("1q")
 	l.Error(e)
 ```
+#### Output
+```
+2020/02/02 15:57:51 ERROR:  strconv.Atoi: parsing "1q": invalid syntax
+
+```
 
 ### Info
 ```
@@ -21,6 +26,12 @@ Error logging is alwas on and cannot be turned off.
 	l.LogLevel = InfoLevel
 	i, e := strconv.Atoi("1q")
 	l.Info(e)
+
+```
+
+#### Output
+```
+2020/02/02 15:57:51 INFO:  strconv.Atoi: parsing "1q": invalid syntax
 
 ```
 
@@ -33,6 +44,12 @@ Error logging is alwas on and cannot be turned off.
 	
 ```
 
+#### Output
+```
+2020/02/02 15:57:51 DEBUG:  strconv.Atoi: parsing "1q": invalid syntax
+
+```
+
 ### Log All
 ```
     var l Logger
@@ -40,4 +57,10 @@ Error logging is alwas on and cannot be turned off.
 	i, e := strconv.Atoi("1q")
 	l.Info(e)
 	
+```
+
+#### Output
+```
+2020/02/02 15:57:51 INFO:  strconv.Atoi: parsing "1q": invalid syntax
+
 ```
