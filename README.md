@@ -10,15 +10,18 @@ The logging level can be set by setting the LogLevel varible as shown:
 ### Error
 Error logging is alwas on and cannot be turned off.
 
+``` var l Logger
+	i, e := strconv.Atoi("1q")
+	l.Error(e)
+```
+
 ### Info
 ```
     var l Logger
 	l.LogLevel = InfoLevel
 	i, e := strconv.Atoi("1q")
 	l.Info(e)
-	if i != 0 {
-		t.Fail()
-	}
+
 ```
 
 ### Debug
@@ -27,9 +30,7 @@ Error logging is alwas on and cannot be turned off.
 	l.LogLevel = DebugLevel
 	i, e := strconv.Atoi("1q")
 	l.Debug(e)
-	if i != 0 {
-		t.Fail()
-	}
+	
 ```
 
 ### Log All
@@ -38,7 +39,5 @@ Error logging is alwas on and cannot be turned off.
 	l.LogLevel = AllLevel
 	i, e := strconv.Atoi("1q")
 	l.Info(e)
-	if i != 0 {
-		t.Fail()
-	}
+	
 ```
