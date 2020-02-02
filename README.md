@@ -79,6 +79,6 @@ Error logging is alwas on and cannot be turned off.
 
 #### Output
 ```
-No log are shown
+No logs are shown
 
 ```

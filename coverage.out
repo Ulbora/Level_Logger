@@ -1,6 +1,6 @@
 mode: set
-github.com/Ulbora/Level_Logger/logger.go:20.40,21.55 1 1
-github.com/Ulbora/Level_Logger/logger.go:21.55,23.3 1 1
-github.com/Ulbora/Level_Logger/logger.go:27.41,28.56 1 1
-github.com/Ulbora/Level_Logger/logger.go:28.56,30.3 1 1
-github.com/Ulbora/Level_Logger/logger.go:34.41,36.2 1 1
+github.com/Ulbora/Level_Logger/logger.go:22.40,23.55 1 1
+github.com/Ulbora/Level_Logger/logger.go:23.55,25.3 1 1
+github.com/Ulbora/Level_Logger/logger.go:29.41,30.56 1 1
+github.com/Ulbora/Level_Logger/logger.go:30.56,32.3 1 1
+github.com/Ulbora/Level_Logger/logger.go:36.41,38.2 1 1
