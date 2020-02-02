@@ -1,5 +1,4 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/Ulbora/Level_Logger)](https://goreportcard.com/report/github.com/Ulbora/Level_Logger)
-
 [![GoDoc](https://godoc.org/github.com/Ulbora/Level_Logger?status.svg)](https://godoc.org/github.com/Ulbora/Level_Logger)
 
 Level Logger
