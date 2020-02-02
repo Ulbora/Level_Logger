@@ -66,3 +66,19 @@ Error logging is alwas on and cannot be turned off.
 2020/02/02 15:57:51 INFO:  strconv.Atoi: parsing "1q": invalid syntax
 
 ```
+
+
+### Logging Off
+```
+    var l Logger
+	l.LogLevel = OffLevel
+	i, e := strconv.Atoi("1q")
+	l.Info(e)
+	
+```
+
+#### Output
+```
+No log are shown
+
+```

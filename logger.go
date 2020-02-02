@@ -3,6 +3,8 @@ package levellogger
 import "log"
 
 const (
+	//OffLevel OffLevel
+	OffLevel = 0
 	//InfoLevel InfoLevel
 	InfoLevel = 1
 	//DebugLevel DebugLevel
