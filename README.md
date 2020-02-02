@@ -10,9 +10,11 @@ The logging level can be set by setting the LogLevel varible as shown:
 ### Error
 Error logging is alwas on and cannot be turned off.
 
-``` var l Logger
+```
+    var l Logger
 	i, e := strconv.Atoi("1q")
 	l.Error(e)
+
 ```
 #### Output
 ```
