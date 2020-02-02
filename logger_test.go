@@ -8,7 +8,7 @@ func TestLogger_Info(t *testing.T) {
 	var l Logger
 	l.LogLevel = InfoLevel
 	i, e := strconv.Atoi("1q")
-	l.Info(e)
+	l.Info("Parser Error ", e)
 	if i != 0 {
 		t.Fail()
 	}
@@ -27,7 +27,7 @@ func TestLogger_Debug(t *testing.T) {
 func TestLogger_Error(t *testing.T) {
 	var l Logger
 	i, e := strconv.Atoi("1q")
-	l.Error(e)
+	l.Error("A big error: ", e)
 	if i != 0 {
 		t.Fail()
 	}
